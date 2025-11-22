@@ -645,6 +645,7 @@
 								<span class="span font-semibold">CSS </span>
 								<span>93.9%</span>
 							</span>
+						</li>
 						<li class="flex items-center">
 							<span class="w-2 h-2 rounded-full bg-yellow-400"></span>
 							<span class="ml-4">
