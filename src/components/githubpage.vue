@@ -537,7 +537,124 @@
 
 			</div>
 			<div class="sidebar w-1/4">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores magnam quis, eaque molestias sed suscipit eos enim eum blanditiis tempora explicabo! Dicta maiores cumque quae debitis voluptatibus eos accusantium eaque!
+				<div class="about">
+					<h4 class="text-base font-semibold">About</h4>
+					<p class="text-base mt-4">A utility-first CSS framework for rapid UI development.</p>
+
+					<div class="flex items-center space-x-2 mt-4">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-4 stroke-gray-600">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+						</svg>
+						<a href="#" class="text-blue-600 hover:underline font-semibold">tailwindcss.com/</a>
+					</div>
+
+					<div class="tags text-xs font-semibold flex items-center flex-wrap mt-2">
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">tailwindcss</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">css</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">css framework</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">postcss</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">functional-css</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">utility-classes</a>
+						<a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2">responsive</a>
+					</div>
+
+					<a href="#" class="flex items-center space-x-2 mt-4 group">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 group-hover:text-blue-600">
+  					<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+						</svg>
+						<span class="text-gray-600 group-hover:text-blue-600">Readme</span>
+					</a>
+					<a href="#" class="flex items-center space-x-2 mt-4 group">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 group-hover:text-blue-600">
+  					<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z" />
+						</svg>
+						<span class="text-gray-600 group-hover:text-blue-600">MIT License</span>
+					</a>
+
+				</div>
+				<div class="releases border-t border-gray-400 mt-6 pt-6">
+					<h4 class="text-base font-semibold flex items-center">
+						<span>Releases</span>
+						<div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">79</div>
+					</h4>
+					<a href="#" class="flex items-start mt-4 group">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 mt-1 stroke-green-500 group-hover:stroke-blue-600">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
+							</svg>
+							<span class="ml-2">
+							<span class="font-semibold group-hover:text-blue-600">v1.5.1</span>
+							<span class="ml-1 text-xs border border-green-500 text-green-600 rounded-full font-semibold inline-block px-2">Latest</span>
+							<span class="block text-xs group-hover:text-blue-600">6 days ago</span>
+						</span>
+					</a>
+					<div class="mt-4">
+						<a href="#" class="text-blue-600 hover:underline text-xs">+ 78 releases</a>
+					</div>
+				</div>
+				<div class="used-by border-t border-gray-400 mt-6 pt-6">
+					<h4 class="text-base font-semibold flex items-center">
+						<span>Used By</span>
+						<div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">5000+</div>
+					</h4>
+					<div class="mt-4">
+						<a href="#" class="flex items-center -space-x-2">
+							<img src="https://i.pravatar.cc/128?img=12" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=13" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=14" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=15" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=17" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=18" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<img src="https://i.pravatar.cc/128?img=19" alt="avatar" class="w-8 border-2 border-white rounded-full">
+							<span class="text-xs text-blue-600 font-semibold hover:underline ml-4" style="margin-left:0.5rem">+ 58,357</span>
+						</a>
+					</div>
+					
+				</div>
+				<div class="contributors border-t border-gray-400 mt-6 pt-6">
+					<h4 class="text-base font-semibold flex items-center">
+						<span>Contributors</span>
+						<div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">115</div>
+					</h4>
+					<div class="flex items-center flex-wrap mt-2">
+						<a href="#"><img src="https://i.pravatar.cc/128?img=1" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=2" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=3" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=5" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=6" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=7" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+						<a href="#"><img src="https://i.pravatar.cc/128?img=8" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+					</div>
+					<div class="mt-4">
+						<a href="#" class="text-blue-600 hover:underline text-xs">+ 104 contributors</a>
+					</div>
+				</div>
+				<div class="languages border-t border-gray-400 mt-6 pt-6">
+					<h4 class="text-base font-semibold flex items-center">
+						<span>Languages</span>
+					</h4>
+					<div class="mt-4 flex">
+						<div class="w-11/12 h-2 rounded-md rounded-r-none bg-purple-700"></div>
+						<div class="w-1/12 h-2 rounded-md rounded-l-none bg-yellow-400"></div>
+					</div>
+					<ul class="mt-2 flex space-x-8 items-center text-xs">
+						<li class="flex items-center">
+							<span class="w-2 h-2 rounded-full bg-purple-700"></span>
+							<span class="ml-4">
+								<span class="span font-semibold">CSS </span>
+								<span>93.9%</span>
+							</span>
+						<li class="flex items-center">
+							<span class="w-2 h-2 rounded-full bg-yellow-400"></span>
+							<span class="ml-4">
+								<span class="span font-semibold">JavaScript </span>
+								<span>6.1%</span>
+							</span>
+
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>	
 
