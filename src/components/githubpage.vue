@@ -18,7 +18,7 @@
 					</svg>
 				</a>
 
-				<div class="relative">
+				<div class="hidden lg:block relative">
 					<input
 						type="text"
 						class="rounded bg-gray-700 placeholder:-white w-72 px-3 py-1"
@@ -31,7 +31,7 @@
 					</div>
 				</div>
 
-				<ul class="flex items-center font-semibold space-x-4">
+				<ul class="hidden lg:flex items-center font-semibold space-x-4">
 					<li><a href="#" class="hover:text-grey-400"></a>Pull Requests</li>
 					<li><a href="#" class="hover:text-grey-400"></a>Issues</li>
 					<li><a href="#" class="hover:text-grey-400"></a>Marketplace</li>
@@ -103,7 +103,7 @@
 			</div>
 		</nav>
 
-		<div class="repo-stats flex items-center justify-between px-8 py-4">
+		<div class="repo-stats flex flex-col lg:flex-row items-center justify-between px-8 py-4">
 			<div class="flex">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" class="w-4 fill-current text-gray-600">
   				<path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
@@ -114,7 +114,7 @@
 					<a href="#" class="text-blue-600 hover:underline font-semibold ml-1">tailwindcss</a>
 				</div>
 			</div>
-			<div class="flex space-x-2">
+			<div class="flex space-x-2 mt-4 lg:mt-0">
 				<div class="flex text-xs">
 					<button class="border border-gray-400 rounded rounded-r-none px-3 py-1 flex items-center space-x-1">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4">
@@ -215,7 +215,7 @@
 						<div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">25</div>
 				</a>
 				</li>
-				<li>
+				<li class="hidden lg:block">
 					<a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 stroke-gray-600">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
@@ -224,7 +224,7 @@
 					<span class="ml-2">Discussions</span>
 				</a>
 				</li>
-				<li>
+				<li class="hidden lg:block">
 					<a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 stroke-gray-600">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -233,7 +233,7 @@
 					<span class="ml-2">Actions</span>
 				</a>
 				</li>
-				<li>
+				<li class="hidden lg:block">
 					<a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 stroke-gray-600">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m0-10.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.25-8.25-3.286Zm0 13.036h.008v.008H12v-.008Z" />
@@ -241,7 +241,7 @@
 					<span class="ml-2">Security</span>
 				</a>
 				</li>
-				<li>
+				<li class="hidden lg:block">
 					<a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 stroke-gray-600">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
@@ -253,8 +253,8 @@
 			</li>
 		</ul>
 
-		<div class="container mx-auto my-8 px-4 flex">
-			<div class="file-explorer-container w-3/4 mr-8">
+		<div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
+			<div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
 				<div class="branch-navigation flex items-center justify-between">
 					<div class="flex items-center space-x-2">
 						<button class="border border-gray-400 rounded-md px-4 py-1 hover:bg-gray-200 flex items-center space-x-2">
@@ -277,7 +277,7 @@
 						/>
 					</svg>
 						</button>
-						<a href class="flex items-center space-x-2 px-3 py-1 group">
+						<a href class="hidden lg:flex items-center space-x-2 px-3 py-1 group">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="w-5 ml-1 group-hover:text-blue-600">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" /><path d="M12 12l0 4" />
 							</svg>
@@ -286,7 +286,7 @@
 								<span>branches</span>
 							</span>
 						</a>
-						<a href class="flex items-center space-x-2 px-3 py-1 group">
+						<a href class="hidden lg:flex items-center space-x-2 px-3 py-1 group">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 group-hover:text-blue-600">
   						<path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
   						<path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
@@ -298,7 +298,7 @@
 						</a>
 					</div>
 
-					<div class="flex items-center space-x-3">
+					<div class="hidden lg:flex items-center space-x-3">
 						<button class="border border-gray-400 font-semibold rounded-md px-4 py-1 flex items-center space-x-1">
 						<div>Go to File</div>
 						<svg
@@ -368,7 +368,7 @@
   						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 						</svg>
 						</a>
-						<a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2">da070bd</a>
+						<a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2 hidden lg:block">da070bd</a>
 						<a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2">6 days ago</a>
 						<a href class="flex items-center ml-1">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 fill-current ml-1 stroke-white">
@@ -376,7 +376,7 @@
 							</svg>
 							<span class="ml-1">
 								<span class="font-semibold text-xs">3,040 </span>
-								<span>commits</span>
+								<span class="hidden lg:inline">commits</span>
 							</span>
 						</a>
 					</div>
@@ -391,8 +391,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">.github</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Update issues template</a>
-						<div class="w-2/12 text-right">11 days ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Update issues template</a>
+						<div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -401,8 +401,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">_tests_</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Remove stale test</a>
-						<div class="w-2/12 text-right">4 days ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Remove stale test</a>
+						<div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -411,8 +411,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">dist</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Add empty .npmignore so dist files are distributed with releases</a>
-						<div class="w-2/12 text-right">3 years ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Add empty .npmignore so dist files are distributed with releases</a>
+						<div class="w-4/12 lg:w-2/12 text-right">3 years ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -421,8 +421,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">jest</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Use `process.env.JEST.WORKER.ID`</a>
-						<div class="w-2/12 text-right">15 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Use `process.env.JEST.WORKER.ID`</a>
+						<div class="w-4/12 lg:w-2/12 text-right">15 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -431,8 +431,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">scripts</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Prevent source maps from being generated</a>
-						<div class="w-2/12 text-right">21 days ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Prevent source maps from being generated</a>
+						<div class="w-4/12 lg:w-2/12 text-right">21 days ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -441,8 +441,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">src</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Only wrap with variansts if rules don't already contain variants</a>
-						<div class="w-2/12 text-right">4 days ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Only wrap with variansts if rules don't already contain variants</a>
+						<div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -451,8 +451,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">stubs</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Generate responsive variants for container by default</a>
-						<div class="w-2/12 text-right">4 days ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Generate responsive variants for container by default</a>
+						<div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -461,8 +461,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">.editorconfig</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Convert new stuff to use ES6 modules</a>
-						<div class="w-2/12 text-right">3 years ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Convert new stuff to use ES6 modules</a>
+						<div class="w-4/12 lg:w-2/12 text-right">3 years ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -471,8 +471,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">.eslintignore</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Update CLI init command</a>
-						<div class="w-2/12 text-right">16 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Update CLI init command</a>
+						<div class="w-4/12 lg:w-2/12 text-right">16 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -481,8 +481,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">.eslintrc.json</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Disable lint rule for TODO comments</a>
-						<div class="w-2/12 text-right">3 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Disable lint rule for TODO comments</a>
+						<div class="w-4/12 lg:w-2/12 text-right">3 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -491,8 +491,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">plugin.js</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Add new `plugin` and `plugin.with Options` functions for creating</a>
-						<div class="w-2/12 text-right">7 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Add new `plugin` and `plugin.with Options` functions for creating</a>
+						<div class="w-4/12 lg:w-2/12 text-right">7 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -501,8 +501,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">README.md</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Add alt attribute to logo</a>
-						<div class="w-2/12 text-right">2 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Add alt attribute to logo</a>
+						<div class="w-4/12 lg:w-2/12 text-right">2 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -511,8 +511,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">tailwind.css</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Undo accidental changes to CDN build process</a>
-						<div class="w-2/12 text-right">7 months ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Undo accidental changes to CDN build process</a>
+						<div class="w-4/12 lg:w-2/12 text-right">7 months ago</div>
 					</div>
 					<div class="flex justify-between px-4 py-2 hover:bg-gray-200">
 						<div class="w-4/12 flex items-center">
@@ -521,8 +521,8 @@
 							</svg>
 							<a href="#" class="hover:underline hover:text-blue-500 ml-3">utilities.css</a>
 						</div>
-						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3">Move CSS files to root for easier imports</a>
-						<div class="w-2/12 text-right">2 years ago</div>
+						<a href="#" class="w-6/12 hover:underline hover:text-blue-500 ml-3 hidden lg:block">Move CSS files to root for easier imports</a>
+						<div class="w-4/12 lg:w-2/12 text-right">2 years ago</div>
 					</div>
 					
 				</div>
@@ -536,8 +536,8 @@
 				</div>
 
 			</div>
-			<div class="sidebar w-1/4">
-				<div class="about">
+			<div class="sidebar w-full lg:w-1/4">
+				<div class="about mt-4 lg:mt-0">
 					<h4 class="text-base font-semibold">About</h4>
 					<p class="text-base mt-4">A utility-first CSS framework for rapid UI development.</p>
 
@@ -660,8 +660,8 @@
 		</div>	
 
 		<!-- footer -->
-		 <footer class="container mx-auto text-xs border-t border-gray-400 py-10 flex items-center justify-between">
-			<ul class="flex items-center space-x-12">
+		 <footer class="container mx-auto text-xs border-t border-gray-400 py-10 flex flex-col lg:flex-row items-center justify-between">
+			<ul class="flex items-center space-x-6 lg:space-x-12">
 				<li>&copy; 2025 GitHub, Inc.</li>
 				<li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
 				<li><a href="#" class="text-blue-600 hover:underline">Privacy</a></li>
@@ -669,7 +669,7 @@
 				<li><a href="#" class="text-blue-600 hover:underline">Status</a></li>
 				<li><a href="#" class="text-blue-600 hover:underline">Help</a></li>
 			</ul>
-			<div class="mx-16">
+			<div class="mx-16 hidden lg:block">
 				<a href="#" class="hover:text-gray-400">
 					<svg
 						aria-hidden="true"
@@ -683,7 +683,7 @@
 					</svg>
 				</a>
 			</div>
-			<ul class="flex items-center space-x-12">
+			<ul class="flex items-center space-x-12 mt-4 lg:mt-0">
 				<li><a href="#" class="text-blue-600 hover:underline">Contact GitHub</a></li>
 				<li><a href="#" class="text-blue-600 hover:underline">Pricing</a></li>
 				<li><a href="#" class="text-blue-600 hover:underline">API</a></li>
