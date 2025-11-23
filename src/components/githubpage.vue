@@ -531,7 +531,7 @@
 				<div class="readme-container rounded-md border border-gray-400 px-4 py-4 mt-4">
 					<h4 class="font-semibold">README.md</h4>
 					<div>
-						ewdbwiedrbhwiedkbh
+						<MarkdownViewer v-if="readmeContent" :content="readmeContent" />
 					</div>
 				</div>
 
@@ -695,7 +695,31 @@
 	</div>
 </template>
 
-<script></script>
+<script>
+import MarkdownViewer from './markdownViewer.vue';
+
+export default {
+	components: {
+		MarkdownViewer,
+	},
+	data() {
+		return {
+			readmeContent: ''
+		}
+	},
+	mounted() {
+		// fetching the md file when component loads
+		fetch('/readme-tailwind.md')
+		.then(response => response.text())
+		.then(text => {
+			this.readmeContent = text;
+		})
+		.catch(error => {
+			console.error('Error loading markdown:', error);
+		});
+	}
+};
+</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped></style>

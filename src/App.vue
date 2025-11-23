@@ -2,6 +2,7 @@
 <template>
 	<div id="app">
 		<githubpage />
+		<MarkdownViewer :content="readmeText" />
 	</div>
 </template>
 
